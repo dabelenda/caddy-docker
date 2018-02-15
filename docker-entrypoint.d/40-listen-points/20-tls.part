@@ -1,4 +1,4 @@
-TLS_VAR=$"{BASEVAR}_TLS_MODE"
+TLS_VAR="${BASEVAR}_TLS_MODE"
 TLS="${!TLS_VAR}"
 if [ -z "${TLS}" ]; then
   TLS="self_signed"
